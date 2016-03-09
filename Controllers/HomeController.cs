@@ -14,8 +14,9 @@ namespace affogato_starter.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public async Task<ActionResult> Index()
         {
+
             return View();
         }
 
